@@ -1,7 +1,8 @@
 """
-File: khansole_academy.py
+File: addition_problems.py
 -------------------------
-Add your comments here.
+This piece of code will create addition problems (with 2 digit numbers).
+New problems will continue to be displayed until the user gets 3 correct answes in a row.
 """
 
 import random
@@ -44,7 +45,5 @@ def main():
     print("Congratulations! You mastered addition.")
 
 
-    # This provided line is required at the end of a Python file
-# to call the main() function.
 if __name__ == '__main__':
     main()
